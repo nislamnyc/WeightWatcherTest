@@ -59,12 +59,53 @@ public class WeightWatcherTest extends BaseTest{
 			System.out.println(time);
 		}
 		
+		List<WebElement> opHours = getOperationHours(day);
+		for(WebElement e: opHours){	
+			String hour = e.getText();
+			System.out.println(hour);
+		}
+		
 	}
 	
 	//this function will find the meeting schedule with the given day
 	public List<WebElement> getMeetingTime(String day) {
 		String start = "//schedule-detailed/div/div[";
 		String end = "]/div/div/div[1]";
+		String locator = null;
+
+		switch (day) {
+		case "Sun":
+			locator = start + 1 + end;
+			break;
+		case "Mon":
+			locator = start + 2 + end;
+			break;
+		case "Tue":
+			locator = start + 3 + end;
+			break;
+		case "Wed":
+			locator = start + 4 + end;
+			break;
+		case "Thu":
+			locator = start + 5 + end;
+			break;
+		case "Fri":
+			locator = start + 6 + end;
+			break;
+		case "Sat":
+			locator = start + 7 + end;
+			break;
+
+		}
+
+		List<WebElement> times = driver.findElements(By.xpath(locator));
+		return times;
+
+	}
+	
+	public List<WebElement> getOperationHours(String day) {
+		String start = "//hours-list/ul/li[";
+		String end = "]/div/div[2]/div";
 		String locator = null;
 
 		switch (day) {
