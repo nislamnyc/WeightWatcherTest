@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15453" started-at="2018-03-30T05:23:00Z" finished-at="2018-03-30T05:23:16Z">
+  <suite name="Default suite" duration-ms="40967" started-at="2018-03-31T23:17:35Z" finished-at="2018-03-31T23:18:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15453" started-at="2018-03-30T05:23:00Z" finished-at="2018-03-30T05:23:16Z">
+    <test name="Default test" duration-ms="40967" started-at="2018-03-31T23:17:35Z" finished-at="2018-03-31T23:18:16Z">
       <class name="com.test.WeightWatcherTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="beforeMethod" is-config="true" duration-ms="7648" started-at="2018-03-30T05:23:00Z" finished-at="2018-03-30T05:23:08Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="beforeMethod" is-config="true" duration-ms="27924" started-at="2018-03-31T23:17:35Z" finished-at="2018-03-31T23:18:03Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testPage()[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="testPage" duration-ms="6911" started-at="2018-03-30T05:23:08Z" finished-at="2018-03-30T05:23:15Z">
+        <test-method status="PASS" signature="testPage()[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="testPage" duration-ms="11373" started-at="2018-03-31T23:18:03Z" finished-at="2018-03-31T23:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="afterMethod" is-config="true" duration-ms="864" started-at="2018-03-30T05:23:15Z" finished-at="2018-03-30T05:23:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.WeightWatcherTest@4501b7af]" name="afterMethod" is-config="true" duration-ms="1625" started-at="2018-03-31T23:18:14Z" finished-at="2018-03-31T23:18:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
